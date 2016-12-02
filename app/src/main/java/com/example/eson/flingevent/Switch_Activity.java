@@ -15,6 +15,8 @@ public class Switch_Activity extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.switchstatus);
         ToggleButton toggleButton = (ToggleButton) findViewById(R.id.textswitch);
 
+        toggleButton.setChecked(true);
+
 
     }
 }

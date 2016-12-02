@@ -13,5 +13,8 @@ public class BroadcastReceiver_ extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         Toast.makeText(context,"广播已接受",Toast.LENGTH_SHORT).show();
         Toast.makeText(context,"",Toast.LENGTH_SHORT).show();
+
+
+
     }
 }
