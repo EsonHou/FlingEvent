@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlingEvent</string>
+    <string name="title_activity_long_click_">LongClick_Activity</string>
+</resources>

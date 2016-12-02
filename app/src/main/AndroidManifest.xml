@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eson.flingevent">
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <!-- 权限 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Right_Activity" />
+        <activity android:name=".ViewFlipper_Activity" />
+        <activity
+            android:name=".LongClick_Activity"
+            android:label="@string/title_activity_long_click_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SettingWallpaper_Activity" />
+        <activity android:name=".Paint_Activity" />
+        <activity android:name=".OnScroll_Activity"></activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Switch_Activity"></activity>
+        <activity android:name=".BroadcastReceiver_Activity"></activity>
+    </application>
+
+</manifest>
